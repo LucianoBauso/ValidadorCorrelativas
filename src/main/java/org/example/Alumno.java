@@ -13,7 +13,6 @@ public class Alumno {
     public void aprobarMateria(Materia materia)
     {
         materiasAprobadas.add(materia);
-        return;
     }
 
     public Boolean TieneAprobada(Materia materia)
