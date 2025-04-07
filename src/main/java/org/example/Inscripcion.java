@@ -10,7 +10,7 @@ public class Inscripcion {
     {
         for (Materia materia: materias)
         {
-            if (!alumno.TieneAprobada(materia))
+            if (!alumno.tieneAprobada(materia))
             {
                 return Boolean.FALSE;
             }

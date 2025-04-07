@@ -15,7 +15,7 @@ public class Alumno {
         materiasAprobadas.add(materia);
     }
 
-    public Boolean TieneAprobada(Materia materia)
+    public Boolean tieneAprobada(Materia materia)
     {
         if(materiasAprobadas.contains(materia))
         {return Boolean.TRUE;}

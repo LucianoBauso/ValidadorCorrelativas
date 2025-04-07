@@ -44,7 +44,7 @@ class InscripcionTest {
 
         alumno.aprobarMateria(biologia);
 
-        assertTrue(alumno.TieneAprobada(biologia));
+        assertTrue(alumno.tieneAprobada(biologia));
     }
 
     @Test
@@ -52,6 +52,6 @@ class InscripcionTest {
         Alumno alumno = new Alumno("Diego", "Martínez", 1004);
         Materia historia = new Materia("Historia");
 
-        assertFalse(alumno.TieneAprobada(historia));
+        assertFalse(alumno.tieneAprobada(historia));
     }
 }
